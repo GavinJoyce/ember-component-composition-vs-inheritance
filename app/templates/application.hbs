@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+
+<div class="flex p-2">
+  <div class="flex-1 p-2">
+    <h1 class="text-2xl font-bold">Inheritance:</h1>
+
+    <Inheritance::Report1 />
+    <Inheritance::Report2 />
+  </div>
+  <div class="flex-1 p-2">
+    <h1 class="text-2xl font-bold">Composition:</h1>
+
+    <Composition::Report1 />
+    <Composition::Report2 />
+  </div>
+</div>
 
 {{outlet}}
